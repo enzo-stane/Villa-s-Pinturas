@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('./cinza-textura-de-marmore-palido.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3); 
+   
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(91, 91, 90, 0.8);
+}
+
+.divLogoHeader{
+    margin-left: 10vh;
+}
+
+.imgLogo{
+    width: 14%;
+   
+}
+
+ul,
+ol {
+    list-style: none;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.containerHome {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.sobreNos {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.containerSobreNosIMG{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSobreNos {
+    width: 50%;
+
+}
+
+.containerSobreNos {
+    width: 50%;
+    height: 30vh;
+    background-color: rgba(91, 91, 90);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+
+.Serviços{
+    width: 100%;
+    height: 85rem;
+    background-color: rgba(91, 91, 90, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerServiços{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divServiços{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudoDivServiços{
+    width: 45%;
+    height: 80%;
+    padding: 2%;
+    font-size: large;
+    font-weight: 700;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviçosIMG{
+    width: 20%;
+    height: 80%;
+}
+
+.portifólio {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.containerPortifólio{
+    background-color: rgba(91, 91, 90);
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5vh;
+}
+
+.portifólioIMG{
+    display: inline-block; 
+    width: 90%;
+    height: 40vh; 
+    margin-right: 5vh; 
+}
+
+
+  
+
+button {
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: gray;
+    color:#fff;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 800;
+}
+p{
+    font-size: 4vh;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(91, 91, 90, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .imgFooter{
+    width: 12%;
+  }
+  
+  h1{
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+ }
+
+h2{
+    margin-left: 10%;
+    color: white;
+}
+
+@media (max-width: 1080px) {
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url('./cinza-textura-de-marmore-palido.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Poppins', sans-serif;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  
+    header {
+      height: 12vh;
+    }
+
+    .divLogoHeader{
+      width: 20%;
+      
+    }
+  
+    .imgLogo {
+      width: 60%;
+    }
+  
+    ul,
+    ol {
+      width: 70%;
+      font-size: smaller;
+      
+    }
+  
+    .home {
+      height: 32vh;
+    }
+  
+    .containerHome {
+      width: 90%;
+    }
+  
+    .sobreNos {
+      height: 80vh;
+    }
+  
+    .containerSobreNosIMG {
+      width: 80%;
+    }
+  
+    .containerSobreNos {
+      width: 80%;
+      height: 40vh;
+      padding: 2%;
+      text-align: center;
+    }
+
+    .Serviços{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 98%;
+    }
+
+    .containerServiços{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100rem;
+    }
+
+    .divServiços{
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .conteudoDivServiços{
+        width: 65%;
+        height: 40%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .serviçosIMG{
+        width: 30%;
+        height: 45%;
+    }
+
+    .imgFooter{
+width: 17%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url('./cinza-textura-de-marmore-palido.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    
+      header {
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .divLogoHeader{
+     width: 20%; 
+     height: 100%;  
+    
+        display: flex;
+        align-items: center;
+    }
+
+      .imgLogo {
+      width: 100%;
+      }
+    
+      ul{
+        width: 80%;
+        height: 100%;
+        font-size: 1.5vh;
+        justify-content: space-evenly;
+      }
+      
+    
+      .home {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+        
+      }
+    
+      .containerHome {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+.conteudoHome{
+  text-align: center;
+}
+
+      button{
+width: 40%;
+      }
+
+      h1{
+        font-size: x-large;
+      }
+    
+      .sobreNos {
+        height: 65vh;
+      }
+      
+    
+      .containerSobreNosIMG {
+        width: 80%;
+      }
+    
+      .containerSobreNos {
+        width: 80%;
+        height: 40vh;
+        font-size: medium;
+        padding: 2%;
+        text-align: center;
+      }
+  
+      .Serviços{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 98%;
+      }
+  
+      .containerServiços{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 100rem;
+      }
+  
+      .divServiços{
+          flex-direction: column;
+          height: 40vh;
+      }
+  
+      .conteudoDivServiços{
+          width: 65%;
+          height: 40%;
+          padding: 1%;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: smaller;
+      }
+  
+      .serviçosIMG{
+          width: 30%;
+          height: 45%;
+      }
+
+      .portifólio{
+        height: 50vh;
+      }
+
+      .portifólioIMG{
+        display: inline-block; 
+        width: 90%;
+        height: 30vh; 
+        margin-right: 5vh; 
+    }
+    
+  
+      .imgFooter{
+  width: 25%;
+  margin-right: 2vh;
+      }
+
+}
