@@ -18,6 +18,7 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(91, 91, 90, 0.8);
+ 
 }
 
 
@@ -59,7 +60,7 @@ a {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
-  transition: 0.25s linear ;
+ 
 }
 
 .containerHome {
@@ -81,7 +82,7 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
   justify-content: space-evenly;
   align-items: center;
-  transition: 0.25s linear;
+ 
 }
 
 .containerSobreNosIMG {
@@ -91,6 +92,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .imgSobreNos {
@@ -118,7 +120,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: 0.25s linear ;
+ 
 }
 
 .containerServiços {
@@ -128,7 +130,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 0.25s linear ;
+ 
 }
 
 .divServiços {
@@ -154,6 +156,7 @@ a {
 .serviçosIMG {
   width: 20%;
   height: 80%;
+ 
 }
 
 .portifólio {
@@ -164,7 +167,7 @@ a {
   justify-content: space-around;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
-  transition: 0.25s linear ;
+ 
 }
 
 .containerPortifólio {
@@ -214,7 +217,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transition: 0.25s linear;
+ 
 }
 
 .containerFooter{
@@ -398,6 +401,7 @@ h2 {
     display: flex;
     margin: 0%;
     padding: 0%;
+   
   }
 
    .imgLogo {
@@ -429,7 +433,7 @@ margin: 0;
     flex-direction: column;
     align-items: center;
     font-size: smaller;
-
+   
   }
 
   .containerHome {
@@ -454,16 +458,22 @@ margin: 0;
     height: 5vh;
     display: flex;
     justify-content: center;
-    
+   
   }
 
   .sobreNos {
     height: 65vh;
   }
 
+  .imgSobreNos{
+    width: 80%;
+   
+  }
+
 
   .containerSobreNosIMG {
     width: 80%;
+   
   }
 
   .containerSobreNos {
@@ -479,6 +489,7 @@ margin: 0;
     flex-direction: column;
     justify-content: space-around;
     height: 130rem;
+
   }
 
   .containerServiços {
@@ -502,15 +513,18 @@ margin: 0;
     justify-content: center;
     text-align: center;
     font-size: smaller;
+   
   }
 
   .serviçosIMG {
     width: 70%;
     height: 50%;
+   
   }
 
   .portifólio {
     height: 70vh;
+   
   }
 
   .containerPortifólio{
