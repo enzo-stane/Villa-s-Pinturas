@@ -39,7 +39,7 @@
             <div class="divInputs">
                 <div style="width: 40%;height: 70%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
                     <label for="">Escolha um tipo de serviço</label>
-                    <select name="" id="">
+                    <select name="" id="tipoServico">
                         <option value="valor0"></option>
                         <option value="valor1">Pintura Residencial</option>
                         <option value="valor2">Pintura Comercial</option>
@@ -51,14 +51,14 @@
 
                 <div style="width: 40%;height: 70%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
                     <label for="">Tamanho do local do Serviço (m2)</label>
-                    <input type="number">
+                    <input id="tamanhoLocal" type="number">
                 </div>
             </div>
 
             <div class="divInputs">
                 <div style="width: 40%;height: 70%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
                     <label for="">Escolha uma área para o serviço</label>
-                    <select name="" id="">
+                    <select name="" id="areaServico">
                         <option value="valor0"></option>
                         <option value="valor1">Piso</option>
                         <option value="valor2">Parede</option>
@@ -68,7 +68,7 @@
 
                 <div style="width: 40%;height: 70%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
                     <label for="">Como é o recorte da área escolhida</label>
-                    <select name="" id="">
+                    <select name="" id="recorteArea">
                         <option value="valor0"></option>
                         <option value="valor1">Nenhum Recortes</option>
                         <option value="valor2">Alguns Recortes</option>
@@ -78,7 +78,7 @@
 
             </div>
 
-            <button>Orçamento</button>
+            <button onclick="envio()">Orçamento</button>
 
         </div>
 
@@ -106,6 +106,25 @@
 
     </footer>
 
+<script>
+    function envio() {
+            var tipoServico = document.getElementById("tipoServico").value;
+            var tamanhoLocal = document.getElementById("tamanhoLocal").value;
+            var areaServico = document.getElementById("areaServico").value;
+            var recorteArea = document.getElementById("recorteArea").value;
+
+            var mensagem = "Tipo de Serviço: " + tipoServico + "%0A" +
+                "Tamanho do Local: " + tamanhoLocal + "m2%0A" +
+                "Área do Serviço: " + areaServico + "%0A" +
+                "Recorte da Área: " + recorteArea;
+
+            var numWpp = "11933791155"; // Se necessario mudar o numero do wpp aqui
+
+            var linkWhatsApp = "https://wa.me/" + numWpp + "/?text=" + encodeURIComponent(mensagem);
+
+            window.open(linkWhatsApp, '_blank');
+        }
+</script>
 
 </body>
 
