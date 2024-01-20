@@ -41,11 +41,11 @@
                     <label for="">Escolha um tipo de serviço</label>
                     <select name="" id="tipoServico">
                         <option value="valor0"></option>
-                        <option value="valor1">Pintura Residencial</option>
-                        <option value="valor2">Pintura Comercial</option>
-                        <option value="valor3">Efeitos Decorativos</option>
-                        <option value="valor4">Cimento Queimado</option>
-                        <option value="valor5">Efeito Mármore</option>
+                        <option value="Pintura Residencial">Pintura Residencial</option>
+                        <option value="Pintura Comercial">Pintura Comercial</option>
+                        <option value="Efeitos Decorativos">Efeitos Decorativos</option>
+                        <option value="Cimento Queimado">Cimento Queimado</option>
+                        <option value="Efeito Mármore">Efeito Mármore</option>
                     </select>
                 </div>
 
@@ -60,9 +60,9 @@
                     <label for="">Escolha uma área para o serviço</label>
                     <select name="" id="areaServico">
                         <option value="valor0"></option>
-                        <option value="valor1">Piso</option>
-                        <option value="valor2">Parede</option>
-                        <option value="valor3">Teto</option>
+                        <option value="Piso">Piso</option>
+                        <option value="Parede">Parede</option>
+                        <option value="Teto">Teto</option>
                     </select>
                 </div>
 
@@ -70,9 +70,9 @@
                     <label for="">Como é o recorte da área escolhida</label>
                     <select name="" id="recorteArea">
                         <option value="valor0"></option>
-                        <option value="valor1">Nenhum Recortes</option>
-                        <option value="valor2">Alguns Recortes</option>
-                        <option value="valor2">Muitos Recortes</option>
+                        <option value="Nenhum Recortes">Nenhum Recortes</option>
+                        <option value="Alguns Recortes">Alguns Recortes</option>
+                        <option value="Muitos Recortes">Muitos Recortes</option>
                     </select>
                 </div>
 
@@ -108,19 +108,19 @@
 
 <script>
     function envio() {
-            var tipoServico = document.getElementById("tipoServico").value;
-            var tamanhoLocal = document.getElementById("tamanhoLocal").value;
-            var areaServico = document.getElementById("areaServico").value;
-            var recorteArea = document.getElementById("recorteArea").value;
+            let tipoServico = document.getElementById("tipoServico").value;
+            let tamanhoLocal = document.getElementById("tamanhoLocal").value;
+            let areaServico = document.getElementById("areaServico").value;
+            let recorteArea = document.getElementById("recorteArea").value;
 
-            var mensagem = "Tipo de Serviço: " + tipoServico + "%0A" +
+            let mensagem = "Tipo de Serviço: " + tipoServico + "%0A" +
                 "Tamanho do Local: " + tamanhoLocal + "m2%0A" +
                 "Área do Serviço: " + areaServico + "%0A" +
                 "Recorte da Área: " + recorteArea;
 
-            var numWpp = "55111933791155"; // Se necessario mudar o numero do wpp aqui
+            let numWpp = "5511933791155"; // Se necessario mudar o numero do wpp aqui
 
-            var linkWhatsApp = "https://wa.me/" + numWpp + "/?text=" + encodeURIComponent(mensagem);
+            let linkWhatsApp = "https://wa.me/" + numWpp + "/?text=" + encodeURIComponent(mensagem);
 
             window.open(linkWhatsApp, '_blank');
         }

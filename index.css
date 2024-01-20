@@ -271,6 +271,7 @@ h2 {
 
   header {
     height: 12vh;
+   
   }
 
   .imgLogo {
@@ -536,6 +537,116 @@ margin: 0;
     width: 90%;
     height: 40vh;
     margin-right: 1vh;
+  }
+
+  footer{
+    height: 15vh;
+  }
+
+  .containerFooter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .imgFooter {
+    display: none;
+  }
+  .imgInstagram{
+width: 5%;
+margin-right: 1vh;
+filter: invert(100%);
+  }
+  .imgWpp{
+width: 5%;
+margin-left: 5vh;
+margin-right: 1vh;
+filter: invert(100%);
+  }
+
+}
+
+@media (min-width: 481px) and  (max-width: 700px){
+  header {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+   
+  }
+
+  .imgLogo {
+    width: 15%;
+   
+  margin-left: -1vh;
+  } 
+
+  .divlistHeader {
+    width: 80%;
+    height: 100%;
+
+margin: 0;
+  }
+
+  ul {
+    width: 100%;
+    height: 78%;
+    font-size: 1.5vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Serviços {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150rem;
+
+  }
+
+  .containerServiços {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140rem;
+
+  }
+
+  .divServiços {
+    flex-direction: column;
+    height: 55vh;
+  }
+
+  .conteudoDivServiços {
+    width: 70%;
+    height: 40%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: smaller;
+   
+  }
+
+  .serviçosIMG {
+    width: 70%;
+    height: 50%;
+   
+  }
+
+  .portifólio {
+    height: 75vh;
+   
+  }
+
+  button{
+    width: 40%;
   }
 
   footer{
