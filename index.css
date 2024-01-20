@@ -299,12 +299,12 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100rem;
+    height: 150rem;
   }
 
   .divServiços {
     flex-direction: column;
-    height: 40vh;
+    height: 60vh;
   }
 
   .conteudoDivServiços {
@@ -318,8 +318,8 @@ h2 {
   }
 
   .serviçosIMG {
-    width: 30%;
-    height: 45%;
+    width: 50%;
+    height: 50%;
   }
 
   .imgFooter {
@@ -399,6 +399,11 @@ margin: 0;
 
   h1 {
     font-size: x-large;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    
   }
 
   .sobreNos {
@@ -422,23 +427,24 @@ margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 98%;
+    height: 130rem;
   }
 
   .containerServiços {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100rem;
+    height: 120rem;
+
   }
 
   .divServiços {
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
   }
 
   .conteudoDivServiços {
-    width: 65%;
+    width: 70%;
     height: 40%;
     padding: 1%;
     display: flex;
@@ -448,19 +454,23 @@ margin: 0;
   }
 
   .serviçosIMG {
-    width: 30%;
-    height: 45%;
+    width: 70%;
+    height: 50%;
   }
 
   .portifólio {
-    height: 50vh;
+    height: 70vh;
+  }
+
+  .containerPortifólio{
+    width: 80%;
   }
 
   .portifólioIMG {
     display: inline-block;
     width: 90%;
-    height: 30vh;
-    margin-right: 5vh;
+    height: 40vh;
+    margin-right: 1vh;
   }
 
 
