@@ -14,35 +14,43 @@ body {
 
 header {
     width: 100%;
-    height: 10.5vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(91, 91, 90, 0.8);
-}
-
-.imgLogo{
-    width: 14%;
-   
-}
-
-ul,
-ol {
+  }
+  
+  
+  
+  .imgLogo {
+    width: 5%;
+  
+  }
+  
+  .divlistHeader {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center
+  }
+  
+  ul,
+  ol {
     list-style: none;
-    width: 70%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: large;
     font-weight: bold;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
     color: white;
-}
-
+  }
 
 .containerPrincipal{
     background-color: rgba(0, 0, 0, 0.3);
@@ -152,19 +160,27 @@ button{
       header {
         height: 12vh;
       }
-  
-      .divLogoHeader{
-          margin-left: 10vh;
-      }
     
       .imgLogo {
-        width: 32%;
+        width: 10%;
+        margin-left: 8vh;
+      }
+    
+      .divlistHeader {
+        width: 80%;
+        height: 100%;
+        margin-left: 17vh;
+        display: flex;
+        justify-content: space-around;
+        
       }
     
       ul,
       ol {
-        width: 90%;
+        width: 100%;
         font-size: smaller;
+        display: flex;
+        justify-content: space-around;
       }
 
       label{
@@ -193,24 +209,36 @@ button{
       }
     
       header {
-        height: 12vh;
-      }
-    
-      .divLogoHeader{
-        margin-left: 2vh;
-        width: 20%;
-    }
-
-      .imgLogo {
         width: 100%;
-        
+        height: 12vh;
+        display: flex;
+        margin: 0%;
+        padding: 0%;
       }
     
-      ul,
-      ol {
+       .imgLogo {
+        width: 15%;
+       
+      margin-left: -1vh;
+      } 
+    
+      .divlistHeader {
         width: 80%;
-        font-size: small;
+        height: 100%;
+    
+    margin: 0;
       }
+    
+      ul {
+        width: 100%;
+        height: 78%;
+        font-size: 1.5vh;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+      }
+    
 
 h1{
     font-size: x-large;
