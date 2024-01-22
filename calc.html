@@ -43,7 +43,7 @@
                         <option value="valor0"></option>
                         <option value="Pintura Residencial">Pintura Residencial</option>
                         <option value="Pintura Comercial">Pintura Comercial</option>
-                        <option value="Efeitos Decorativos">Efeitos Decorativos</option>
+                        <option value="Efeitos Corten">Efeitos Corten</option>
                         <option value="Cimento Queimado">Cimento Queimado</option>
                         <option value="Efeito Mármore">Efeito Mármore</option>
                     </select>
@@ -66,15 +66,7 @@
                     </select>
                 </div>
 
-                <div style="width: 40%;height: 70%;display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
-                    <label for="">Como é o recorte da área escolhida</label>
-                    <select name="" id="recorteArea">
-                        <option value="valor0"></option>
-                        <option value="Nenhum Recortes">Nenhum Recortes</option>
-                        <option value="Alguns Recortes">Alguns Recortes</option>
-                        <option value="Muitos Recortes">Muitos Recortes</option>
-                    </select>
-                </div>
+              
 
             </div>
 
@@ -100,7 +92,7 @@
                 <img class="imgInstagram" src="instagram-direto.png" alt="">
                 <a href="">@vilaspinturas</a> <br>
                 <img class="imgWpp" src="whatsapp.png" alt="">
-                 <a href="">(11)93379-1155</a>
+                 <a href="">(11)94733-3590</a>
             </div>
         </div>
 
@@ -111,14 +103,13 @@
             let tipoServico = document.getElementById("tipoServico").value;
             let tamanhoLocal = document.getElementById("tamanhoLocal").value;
             let areaServico = document.getElementById("areaServico").value;
-            let recorteArea = document.getElementById("recorteArea").value;
+            
 
-            let mensagem = "Tipo de Serviço: " + tipoServico + "%0A" +
-                "Tamanho do Local: " + tamanhoLocal + "m2%0A" +
-                "Área do Serviço: " + areaServico + "%0A" +
-                "Recorte da Área: " + recorteArea;
+            let mensagem = "Olá, desejo fazer o orçamento do seu trabalho! algumas informações necessárias para você: Tipo de Serviço: " + tipoServico +
+                " Tamanho do Local: " + tamanhoLocal  +
+                " Área do Serviço: " + areaServico;
 
-            let numWpp = "5511933791155"; // Se necessario mudar o numero do wpp aqui
+            let numWpp = "5511947333590"; // Se necessario mudar o numero do wpp aqui
 
             let linkWhatsApp = "https://wa.me/" + numWpp + "/?text=" + encodeURIComponent(mensagem);
 

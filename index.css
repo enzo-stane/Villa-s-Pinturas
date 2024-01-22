@@ -147,7 +147,7 @@ a {
   padding: 2%;
   font-size: large;
   font-weight: 700;
-  background-color: white;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -507,19 +507,18 @@ margin: 0;
   }
 
   .conteudoDivServiços {
-    width: 70%;
-    height: 40%;
+    width: 90%;
+    height: 30%;
     padding: 1%;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: smaller;
-   
+    font-size: 1.8vh;
   }
 
   .serviçosIMG {
-    width: 70%;
-    height: 50%;
+    width: 90%;
+    height: 70%;
    
   }
 
